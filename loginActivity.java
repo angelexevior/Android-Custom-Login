@@ -105,19 +105,12 @@ public class LoginActivity extends ActionBarActivity {
         String password = getPassword();
 
         /*
-        post user/pass from api
-         */
-
-
-        /*
         validate return data
          */
         msgText = (TextView) findViewById(R.id.msgText);
         msgText.setText(email + " - " + password);
         //emailText.setError("Invalid Email");
 
-        //if true go to dashboard
-        //if false display error
     }
 
     public String getEmail() {
