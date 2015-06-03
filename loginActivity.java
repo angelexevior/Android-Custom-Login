@@ -1,4 +1,4 @@
-package com.yourapp.yourapp; //Change this to match your app package
+package com.yourapp.yourapp; //Change this to match your app package | Make sure you change it in the xml file as well
 
 import android.content.Intent;
 import android.os.Bundle;
