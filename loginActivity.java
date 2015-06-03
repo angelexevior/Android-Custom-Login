@@ -103,7 +103,14 @@ public class LoginActivity extends ActionBarActivity {
          */
         String email = getEmail();
         String password = getPassword();
+        
+        //ATTENTION
+        //This is where you can parse email and password to your service for validation.
+        //If you will be using http requests, i recommend using OkHttp (Very reliable and robust library)
+        
 
+        
+        //Currently this will display the submitted data in the msgText above the input fields
         /*
         validate return data
          */
